@@ -20,8 +20,8 @@ shinyServer(
       color <- switch(input$var, 
                       "Percent White" = "darkgreen",
                       "Percent Black" = "black",
-                      "Percent Hispanic" = "darkorange",
-                      "Percent Asian" = "darkviolet")
+                      "Percent Hispanic" = "darkred",
+                      "Percent Asian" = "darkblue")
       
       legend <- switch(input$var, 
                        "Percent White" = "% White",
